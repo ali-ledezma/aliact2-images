@@ -1,0 +1,38 @@
+name: my_app # <--- This is your project name!
+description: A new Flutter project.
+# ... rest of the pubspec.yaml
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Your Dart SDK version might be different
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2 # Example of a common dependency
+  # --- ADDITION START ---
+  google_fonts: ^6.2.1 # Recommended for easily using Google Fonts like 'Inter'
+  # --- ADDITION END ---
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # --- OPTIONAL: Uncomment and add assets if you have local images or fonts ---
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # fonts:
+  #   - family: Inter # If you're using a local Inter font file
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
